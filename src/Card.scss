@@ -1,0 +1,20 @@
+.card {
+    &__body {
+        padding: 30px!important;
+    }
+    .ant-card-body{
+        padding: 0px;
+    }
+    &__meta {
+        padding: 24px 0 24px 0;
+        .ant-card-meta-description {
+            color: rgb(28, 128, 195);
+        }
+    }
+    &__paragraph {
+        text-align: justify;
+    }
+    &__img {
+        height: 300px!important;
+    }
+}
